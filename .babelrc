@@ -1,0 +1,14 @@
+{
+    "presets": [
+      ["env", { 
+        "targets": {
+          "browsers": "last 4 versions"
+        },
+        "loose": true,
+        "modules": false
+      }],
+      "react",
+      "react-hmre"
+    ],
+    "plugins": ["transform-class-properties"]
+  }
