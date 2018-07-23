@@ -7,7 +7,6 @@ class Range extends Component {
     super(props);
 
     this.colorHandler = new colorHandler(props.color);
-    console.log(this.colorHandler);
     this.state = { currentPercent: 0 };
   }
 
@@ -34,7 +33,7 @@ class Range extends Component {
 }
 
 Range.propTypes = {
-  color: PropTypes.string,
+  color: PropTypes.array,
   onClick: PropTypes.func
 };
 

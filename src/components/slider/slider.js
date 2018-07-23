@@ -70,7 +70,6 @@ class Slider extends Component {
   }
 
   componentDidMount() {
-    console.log("mount!");
     window.addEventListener("mousemove", this.onMove);
     window.addEventListener("mouseup", this.endMove);
     window.addEventListener("touchend", this.endMove);
