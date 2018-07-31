@@ -2,6 +2,11 @@
   "name": "simple-slider",
   "version": "0.1.0",
   "description": "",
+  "repository" : {
+	"type": "git",
+	"url": "mneofit/simple-slider"
+  },
+  "homepage": "https://mneofit.github.io/simple-slider/",
   "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
