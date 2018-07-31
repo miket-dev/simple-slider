@@ -8,6 +8,11 @@
   },
   "homepage": "https://mneofit.github.io/simple-slider/",
   "main": "./src/index.js",
+  "repository": {
+	"type": "git",
+	"url": "mneofit/simple-slider"
+  },
+  "homepage": "https://mneofit.github.io/simple-slider/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode production & webpack-dev-server --mode development --hot --open",
